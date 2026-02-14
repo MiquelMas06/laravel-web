@@ -6,7 +6,7 @@
     "modules": ["Auth", "CRUD", "Notifications", "Policies"],
     "stack": "Laravel, MySQL, Tailwind, Livewire",
     "difficulty": "Intermitja",
-    "image": "/images/project1.jpg"
+    "image": "/images/project1.webp"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "modules": ["Shopping Cart", "Payments (Stripe)", "Admin panel", "API"],
     "stack": "Laravel, Vue.js, MySQL, Laravel Cashier",
     "difficulty": "Avançada",
-    "image": "/images/project2.jpg"
+    "image": "/images/project2.webp"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "modules": ["API Resources", "Sanctum", "Rate limiting"],
     "stack": "Laravel, PostgreSQL, Passport",
     "difficulty": "Bàsica",
-    "image": "/images/project3.jpg"
+    "image": "/images/project3.webp"
   },
   {
     "id": 4,
@@ -33,6 +33,6 @@
     "modules": ["Posts", "Comments", "Categories", "Tags"],
     "stack": "Laravel, Blade, SQLite",
     "difficulty": "Principiant",
-    "image": "/images/project4.jpg"
+    "image": "/images/project4.webp"
   }
 ]
