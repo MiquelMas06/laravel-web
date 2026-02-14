@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Routing",
+    "description": "Gestiona les URLs de l'aplicació.",
+    "content": "A Laravel, les rutes es defineixen a `routes/web.php`. Exemple: `Route::get('/users', [UserController::class, 'index']);`"
+  },
+  {
+    "id": 2,
+    "title": "MVC",
+    "description": "Patró Model-Vista-Controlador.",
+    "content": "Els models representen les dades, les vistes la interfície, i els controladors la lògica."
+  },
+  {
+    "id": 3,
+    "title": "Controllers",
+    "description": "Gestionen les peticions HTTP.",
+    "content": "Es creen amb `php artisan make:controller UserController`."
+  },
+  {
+    "id": 4,
+    "title": "Blade",
+    "description": "Motor de plantilles de Laravel.",
+    "content": "Fitxers `.blade.php` amb sintaxi {{ }} per mostrar variables."
+  },
+  {
+    "id": 5,
+    "title": "Eloquent",
+    "description": "ORM per interactuar amb la BD.",
+    "content": "Cada model correspon a una taula. Ex: `User::where('active', 1)->get();`"
+  },
+  {
+    "id": 6,
+    "title": "Migrations",
+    "description": "Control de versions de la base de dades.",
+    "content": "Permeten crear i modificar taules de manera programada."
+  },
+  {
+    "id": 7,
+    "title": "Middleware",
+    "description": "Filtra les peticions HTTP.",
+    "content": "S'utilitza per a autenticació, logs, etc."
+  },
+  {
+    "id": 8,
+    "title": "Validation",
+    "description": "Valida les dades d'entrada.",
+    "content": "Es fa servir `$request->validate([...])`."
+  },
+  {
+    "id": 9,
+    "title": "API Resources",
+    "description": "Transforma models per a respostes JSON.",
+    "content": "Útil per construir APIs REST."
+  },
+  {
+    "id": 10,
+    "title": "Authentication",
+    "description": "Sistema d'autenticació integrat.",
+    "content": "Amb `php artisan make:auth` s'hi afegeix el sistema."
+  }
+]

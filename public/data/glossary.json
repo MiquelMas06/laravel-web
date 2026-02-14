@@ -1,0 +1,10 @@
+[
+  { "term": "Migration", "definition": "Mecanisme per versionar l'esquema de la base de dades." },
+  { "term": "Seeder", "definition": "Classe per omplir la base de dades amb dades de prova." },
+  { "term": "Facade", "definition": "Proporciona una interfície estàtica a classes del contenidor." },
+  { "term": "Eloquent", "definition": "ORM de Laravel que implementa ActiveRecord." },
+  { "term": "Blade", "definition": "Motor de plantilles simple però potent." },
+  { "term": "Middleware", "definition": "Filtre per a peticions HTTP." },
+  { "term": "Route", "definition": "Defineix una URL i el seu controlador associat." },
+  { "term": "Controller", "definition": "Classe que gestiona la lògica de les peticions." }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Autenticació bàsica",
+    "tags": ["auth", "controllers"],
+    "description": "Com configurar l'autenticació de usuaris.",
+    "steps": [
+      "Executa `composer require laravel/ui`",
+      "Després `php artisan ui bootstrap --auth`",
+      "Finalment `npm install && npm run dev`"
+    ],
+    "code": "Route::get('/home', [App\\Http\\Controllers\\HomeController::class, 'index'])->name('home');"
+  },
+  {
+    "id": 2,
+    "title": "Consultes Eloquent avançades",
+    "tags": ["eloquent", "database"],
+    "description": "Exemple de consulta amb relacions.",
+    "steps": [
+      "Definir la relació al model Post: `belongsTo(User::class)`",
+      "Utilitzar `with` per carregar la relació: `Post::with('user')->get();`"
+    ],
+    "code": "$posts = Post::with('user')->where('published', true)->get();"
+  },
+  {
+    "id": 3,
+    "title": "Crear una API REST",
+    "tags": ["api", "controllers"],
+    "description": "Configurar rutes API i Resource.",
+    "steps": [
+      "Crear un Resource: `php artisan make:resource UserResource`",
+      "Definir rutes a `routes/api.php`",
+      "Retornar el Resource des del controlador"
+    ],
+    "code": "Route::apiResource('users', UserController::class);"
+  }
+]

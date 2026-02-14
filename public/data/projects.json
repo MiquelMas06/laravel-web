@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Sistema de gestió d'incidències",
+    "objective": "Plataforma perquè usuaris reportin incidències i l'equip tècnic les gestioni.",
+    "modules": ["Auth", "CRUD", "Notifications", "Policies"],
+    "stack": "Laravel, MySQL, Tailwind, Livewire",
+    "difficulty": "Intermitja",
+    "image": "/images/project1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Botiga online",
+    "objective": "E-commerce amb carret de compra, pagament i gestió de productes.",
+    "modules": ["Shopping Cart", "Payments (Stripe)", "Admin panel", "API"],
+    "stack": "Laravel, Vue.js, MySQL, Laravel Cashier",
+    "difficulty": "Avançada",
+    "image": "/images/project2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "API per a aplicació mòbil",
+    "objective": "Backend que exposa dades d'usuaris, productes i comandes via REST.",
+    "modules": ["API Resources", "Sanctum", "Rate limiting"],
+    "stack": "Laravel, PostgreSQL, Passport",
+    "difficulty": "Bàsica",
+    "image": "/images/project3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Blog personal",
+    "objective": "Publicació d'articles amb categories, etiquetes i comentaris.",
+    "modules": ["Posts", "Comments", "Categories", "Tags"],
+    "stack": "Laravel, Blade, SQLite",
+    "difficulty": "Principiant",
+    "image": "/images/project4.jpg"
+  }
+]
